@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Strongroom_Example' do
+  pod 'Strongroom', :path => '../'
+
+  target 'Strongroom_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
