@@ -31,7 +31,7 @@
 		011D44DAA209B1B8E00D8A14 /* Pods-Strongroom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strongroom_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Strongroom_Tests/Pods-Strongroom_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		07DB83512F9E1A23DCA6F7DC /* Pods-Strongroom_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strongroom_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Strongroom_Example/Pods-Strongroom_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2AB3B5D371E390345CEB2D41 /* Pods_Strongroom_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Strongroom_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4288EB35AB52B1B0A538355E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4288EB35AB52B1B0A538355E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Strongroom_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strongroom_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		89499C958546434588B8CCEC /* Pods_Strongroom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Strongroom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91723D98CF436E4D5BB28D0B /* Pods-Strongroom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strongroom_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Strongroom_Tests/Pods-Strongroom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B6037652E1B292986AFBE74D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C6AADC06D4F60F0CE10975CC /* Strongroom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Strongroom.podspec; path = ../Strongroom.podspec; sourceTree = "<group>"; };
+		B6037652E1B292986AFBE74D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C6AADC06D4F60F0CE10975CC /* Strongroom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Strongroom.podspec; path = ../Strongroom.podspec; sourceTree = "<group>"; };
 		F34B838396C2A88562C39973 /* Pods-Strongroom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strongroom_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Strongroom_Example/Pods-Strongroom_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -212,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KL58X3P954;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -469,6 +470,7 @@
 			baseConfigurationReference = 07DB83512F9E1A23DCA6F7DC /* Pods-Strongroom_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KL58X3P954;
 				INFOPLIST_FILE = Strongroom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +486,7 @@
 			baseConfigurationReference = F34B838396C2A88562C39973 /* Pods-Strongroom_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KL58X3P954;
 				INFOPLIST_FILE = Strongroom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

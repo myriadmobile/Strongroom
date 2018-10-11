@@ -1,0 +1,16 @@
+PODS:
+  - Strongroom (0.1.0)
+
+DEPENDENCIES:
+  - Strongroom (from `../`)
+
+EXTERNAL SOURCES:
+  Strongroom:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Strongroom: c680fad4ae8bed6dfd21a67825fc4907b8bbd0b4
+
+PODFILE CHECKSUM: 2e0fab7fdbc603c87d9ae7a1fd0beb556c5ca560
+
+COCOAPODS: 1.5.3

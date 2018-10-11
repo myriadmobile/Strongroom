@@ -1,0 +1,6 @@
+framework module Strongroom {
+  umbrella header "Strongroom-umbrella.h"
+
+  export *
+  module * { export * }
+}
