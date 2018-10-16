@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'Strongroom_Example' do
   pod 'Strongroom', :path => '../'
+  pod 'SAMKeychain'
 
   target 'Strongroom_Tests' do
     inherit! :search_paths

@@ -1,16 +1,23 @@
 PODS:
+  - SAMKeychain (1.5.3)
   - Strongroom (0.1.0)
 
 DEPENDENCIES:
+  - SAMKeychain
   - Strongroom (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SAMKeychain
 
 EXTERNAL SOURCES:
   Strongroom:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Strongroom: c680fad4ae8bed6dfd21a67825fc4907b8bbd0b4
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  Strongroom: 3f9150faf29916eb7fca898a7c3be0713ee194f7
 
-PODFILE CHECKSUM: 2e0fab7fdbc603c87d9ae7a1fd0beb556c5ca560
+PODFILE CHECKSUM: e5f95791c2cf5d54bff9832ae57f6b623cdd3c0b
 
 COCOAPODS: 1.5.3

@@ -25,6 +25,8 @@ public class Strongroom {
         storeValue(value, forKey: key, safe: safe)
     }
     
+    //TODO:  Would Codable allow us to pass these primitives?
+    
     public static func setValue<S:StrongroomSafe>(_ value: Bool?, forKey key: String, safeType: S.Type) {
         setValue(value, forKey: key, safe: lazyLoadSafe(safeType))
     }
