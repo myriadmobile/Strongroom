@@ -117,17 +117,22 @@ class Tests: XCTestCase {
     
     func testUserDefaultsSafe() {
         self.measure {
-            let safe = UserDefaultsSafe()
-            runTests(safe: safe)
+            runTests(safe: UserDefaultsSafe())
             runTests(safeType: UserDefaultsSafe.self)
         }
     }
     
     func testNSCacheSafe() {
         self.measure {
-            let safe = NSCacheSafe()
-            runTests(safe: safe)
+            runTests(safe: NSCacheSafe())
             runTests(safeType: NSCacheSafe.self)
+        }
+    }
+    
+    func testICloudKeyValueSafe() {
+        self.measure {
+            runTests(safe: ICloudKeyValueSafe())
+            runTests(safeType: ICloudKeyValueSafe.self)
         }
     }
 }
