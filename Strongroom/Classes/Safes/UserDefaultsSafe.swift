@@ -10,15 +10,15 @@ import UIKit
 public class UserDefaultsSafe: StrongroomSafe {
     public required init() { }
     
-    public func setValue(_ value: Data?, forKey key: String) {
-        if let value = value {
-            UserDefaults.standard.setValue(value, forKey: key)
+    public func setData(_ data: Data?, forKey key: String) {
+        if let data = data {
+            UserDefaults.standard.setValue(data, forKey: key)
         } else {
             UserDefaults.standard.removeObject(forKey: key)
         }
     }
     
-    public func getValue(forKey key: String) -> Data? {
+    public func getData(forKey key: String) -> Data? {
         return UserDefaults.standard.object(forKey: key) as? Data
     }
     

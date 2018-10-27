@@ -12,16 +12,16 @@ public class NSCacheSafe: StrongroomSafe {
     
     public required init() { }
     
-    public func setValue(_ value: Data?, forKey key: String) {
+    public func setData(_ data: Data?, forKey key: String) {
         let key = NSString(string: key)
-        if let value = value {
-            cache.setObject(NSData(data: value), forKey: key)
+        if let data = data {
+            cache.setObject(NSData(data: data), forKey: key)
         } else {
             cache.removeObject(forKey: key)
         }
     }
     
-    public func getValue(forKey key: String) -> Data? {
+    public func getData(forKey key: String) -> Data? {
         let key = NSString(string: key)
         var result: Data? = nil
         if let data = cache.object(forKey: key) {

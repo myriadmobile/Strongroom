@@ -7,22 +7,6 @@
 
 import UIKit
 
-internal class CodedWrapper: NSObject, NSCoding {
-    func encode(with aCoder: NSCoder) {
-        aCoder.encode(object, forKey: "object")
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        object = aDecoder.decodeObject(forKey: "object")
-    }
-    
-    var object: Any?
-    
-    init(object: Any?) {
-        self.object = object
-    }
-}
-
 internal extension Strongroom {
     
     private static var safeCache = [StrongroomSafe]()
@@ -38,25 +22,5 @@ internal extension Strongroom {
         }
         
         return safe as! T
-    }
-    
-    internal static func storeValue(_ value: Any?, forKey key: String, safe: StrongroomSafe) {
-        var data: Data? = nil
-        if let value = value {
-            data = NSKeyedArchiver.archivedData(withRootObject: CodedWrapper(object: value));
-        }
-
-        safe.setValue(data, forKey: key)
-    }
-    
-    internal static func getStoredValue(forKey key: String, safe: StrongroomSafe) -> Any? {
-        var value: Any? = nil
-        
-        if let data = safe.getValue(forKey: key) {
-            let wrapper = NSKeyedUnarchiver.unarchiveObject(with:data) as? CodedWrapper
-            value = wrapper?.object
-        }
-        
-        return value
     }
 }

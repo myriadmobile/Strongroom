@@ -286,7 +286,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Strongroom_Example/Pods-Strongroom_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Strongroom_Example/Pods-Strongroom_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
 				"${BUILT_PRODUCTS_DIR}/Strongroom/Strongroom.framework",
 			);
@@ -297,7 +297,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Strongroom_Example/Pods-Strongroom_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Strongroom_Example/Pods-Strongroom_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A0ED094D968882A5F66DC800 /* [CP] Check Pods Manifest.lock */ = {

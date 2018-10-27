@@ -28,13 +28,13 @@ class Tests: XCTestCase {
     //    }
     
     func runTests(safe: StrongroomSafe) {
-        for i in 0..<count {
-            let key = "testNSCoding: \(i)"
-            let value = NSString(string: key)
-            Strongroom.setValue(value, forKey: key, safe: safe)
-            let result: NSString? = Strongroom.getValue(forKey: key, safe: safe)
-            XCTAssert(result == value)
-        }
+//        for i in 0..<count {
+//            let key = "testNSCoding: \(i)"
+//            let value = NSString(string: key)
+//            Strongroom.setValue(value, forKey: key, safe: safe)
+//            let result: NSString? = Strongroom.getValue(forKey: key, safe: safe)
+//            XCTAssert(result == value)
+//        }
         
         for i in 0..<count {
             let key = "testBool: \(i)"
