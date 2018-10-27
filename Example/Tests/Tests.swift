@@ -3,7 +3,7 @@ import Strongroom
 
 class Tests: XCTestCase {
     
-    let count = 100
+    let count = 1
     
     override func setUp() {
         super.setUp()
@@ -15,26 +15,14 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    //    func testExample() {
-    //        // This is an example of a functional test case.
-    //        XCTAssert(true, "Pass")
-    //    }
-    //
-    //    func testPerformanceExample() {
-    //        // This is an example of a performance test case.
-    //        self.measure() {
-    //            // Put the code you want to measure the time of here.
-    //        }
-    //    }
-    
     func runTests(safe: StrongroomSafe) {
-//        for i in 0..<count {
-//            let key = "testNSCoding: \(i)"
-//            let value = NSString(string: key)
-//            Strongroom.setValue(value, forKey: key, safe: safe)
-//            let result: NSString? = Strongroom.getValue(forKey: key, safe: safe)
-//            XCTAssert(result == value)
-//        }
+        for i in 0..<count {
+            let key = "testNSCoding: \(i)"
+            let value = NSString(string: key)
+            Strongroom.setValue(value, forKey: key, safe: safe)
+            let result: NSString? = Strongroom.getValue(forKey: key, safe: safe)
+            XCTAssert(result == value)
+        }
         
         for i in 0..<count {
             let key = "testBool: \(i)"
@@ -77,10 +65,61 @@ class Tests: XCTestCase {
         }
     }
     
+    func runTests<T: StrongroomSafe>(safeType: T.Type) {
+        for i in 0..<count {
+            let key = "testNSCoding: \(i)"
+            let value = NSString(string: key)
+            Strongroom.setValue(value, forKey: key, safeType: safeType)
+            let result: NSString? = Strongroom.getValue(forKey: key, safeType: safeType)
+            XCTAssert(result == value)
+        }
+        
+        for i in 0..<count {
+            let key = "testBool: \(i)"
+            let value = (i % 2) == 0
+            Strongroom.setValue(value, forKey: key, safeType: safeType)
+            let result: Bool? = Strongroom.getValue(forKey: key, safeType: safeType)
+            XCTAssert(result == value)
+        }
+
+        for i in 0..<count {
+            let key = "testString: \(i)"
+            let value = key
+            Strongroom.setValue(value, forKey: key, safeType: safeType)
+            let result: String? = Strongroom.getValue(forKey: key, safeType: safeType)
+            XCTAssert(result == value)
+        }
+
+        for i in 0..<count {
+            let key = "testInt: \(i)"
+            let value = i
+            Strongroom.setValue(value, forKey: key, safeType: safeType)
+            let result: Int? = Strongroom.getValue(forKey: key, safeType: safeType)
+            XCTAssert(result == value)
+        }
+
+        for i in 0..<count {
+            let key = "testFloat: \(i)"
+            let value = Float(i)
+            Strongroom.setValue(value, forKey: key, safeType: safeType)
+            let result: Float? = Strongroom.getValue(forKey: key, safeType: safeType)
+            XCTAssert(result == value)
+        }
+
+        for i in 0..<count {
+            let key = "testDouble: \(i)"
+            let value = Double(i)
+            Strongroom.setValue(value, forKey: key, safeType: safeType)
+            let result: Double? = Strongroom.getValue(forKey: key, safeType: safeType)
+            XCTAssert(result == value)
+        }
+    }
+    
     func testUserDefaultsSafe() {
         self.measure {
             let safe = UserDefaultsSafe()
             runTests(safe: safe)
+            runTests(safeType: UserDefaultsSafe.self)
         }
     }
     
@@ -88,6 +127,7 @@ class Tests: XCTestCase {
         self.measure {
             let safe = NSCacheSafe()
             runTests(safe: safe)
+            runTests(safeType: NSCacheSafe.self)
         }
     }
 }

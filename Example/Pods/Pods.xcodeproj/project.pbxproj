@@ -8,30 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		0F86B30C3BA55B3B845CAFE3D2DF200D /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F034B27064FF8E4018C72896F1D15CE /* SAMKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16C9D354B4DF46001FB6207DFC25E292 /* SAMKeychainSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0B2956CA63084C7140157246516CE2 /* SAMKeychainSafe.swift */; };
-		1F2ED790CD9466112881ED7ECB64809B /* Strongroom-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A14C0A7AD1583C8ACEDC669A17EC422 /* Strongroom-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F2ED790CD9466112881ED7ECB64809B /* Strongroom-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DAB528DF2E8FDC79C37C3C339DFA44 /* Strongroom-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FD96558CF8C64B28F4CECA0F01A2608 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 4750DDEBB30FCFB4FA63C2BC37A4214D /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25FB7A7949E741DD3385671764834D9D /* NSCacheSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593D6FA47EB5BFCFD840720935001FB0 /* NSCacheSafe.swift */; };
-		33BAA2FF467015212D228BE80992D3E8 /* Strongroom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF4CEBFDCCAFB6FA80DB24A242B73C3 /* Strongroom-dummy.m */; };
+		21AB1DE0CAED926B6FCB6DB84174E21C /* CodableArchiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD1F9743AE2AAAAC3A5713438365C41 /* CodableArchiver.swift */; };
+		2B3B50DEA3B16593468A9432B633ADEE /* StrongroomSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13527C9BFFD00226B8861865B0A538B8 /* StrongroomSafe.swift */; };
+		33516C77B8625448970C56B2E50C5A8E /* Strongroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7599F4CAFF317CB776CA4053400BA3D2 /* Strongroom.swift */; };
+		35BFBFC40FA29C45DB1A57DD5BF2477F /* NSCodingArchiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCECE364276E7D19D74A7FE1E70937E /* NSCodingArchiver.swift */; };
 		3C29938D307369E91444FEE0A5F6EAEC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938F58AE8CD37924B2DE7052EBB6295B /* Security.framework */; };
-		50D80AC4AB0A432DD4B02B05A11988BE /* StrongRoomHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98611E073E909A3F92313966B5E98FC /* StrongRoomHelper.swift */; };
 		60496D16C744FBED4ECD85BA0165492C /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 467DB29B6CE6347CBCC6F89D831B89EE /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		62BB124219853F7D7372FC94B741A082 /* Pods-Strongroom_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B030BA2609DCB54BB794168772B9E0F5 /* Pods-Strongroom_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		743B2D526D9BFC307E503AC045A27A94 /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCBC20F75178423E706001F40588F9B /* SAMKeychain-dummy.m */; };
+		74ED1F9D0894E3B7A0C53DDE2CFB7D35 /* Strongroom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D75E866474D1F81AE6C5664726C126A /* Strongroom-dummy.m */; };
 		77786F768F4AC5891BDC6EE0668B1F03 /* SAMKeychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A557F07B874ED63FA6A1AB15318FA9B /* SAMKeychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A42146E76DD6CFCCA26D87BAC17AABAC /* Strongroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022444D1D5F1C80437FA9876B090B31 /* Strongroom.swift */; };
+		85D20010F9D8FB701AABCF84CF03CFDF /* UserDefaultsSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4877883B9FF316C4D55301EAA01C17 /* UserDefaultsSafe.swift */; };
+		B7488543CE3B792C1084B89896405382 /* StrongroomArchiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE766899447A529B310D48EF7473FBA /* StrongroomArchiver.swift */; };
 		B7AA9F1E5084B8ED7077D43FE86370FA /* SAMKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D413D76727073737DAA57CA60C778547 /* SAMKeychain.bundle */; };
 		C0DDD377EBB7EE2877C9A10851874A20 /* Pods-Strongroom_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC77FBA426EF4A37DB79CC9213F4B75 /* Pods-Strongroom_Tests-dummy.m */; };
 		C611E72F96A1F44D4DF545E8E5C45020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29232C0A90275E386A312F9C83843838 /* Foundation.framework */; };
-		D0DC601A3C09367CAD202302B88562D2 /* StrongroomArchiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F130F0D8C5EB85A9E873B607C0D23CD6 /* StrongroomArchiver.swift */; };
+		D031E4FFC0A2EAE6B18B9C3140408C38 /* StrongroomHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E917CB34B1C50A99EB5BFCDFFBDA97A5 /* StrongroomHelper.swift */; };
 		E0561E08DDD8B66D60B1B5E0ADC9915C /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = A5951A74082C57801B593CC89807AF50 /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E287B5299B7EFA1611C6D870DA1F9F49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29232C0A90275E386A312F9C83843838 /* Foundation.framework */; };
 		EC38FB79EFEFDD3541A47D01B88DC88E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29232C0A90275E386A312F9C83843838 /* Foundation.framework */; };
 		F0E1CBD6E057DBAB1CA37A108A334D79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29232C0A90275E386A312F9C83843838 /* Foundation.framework */; };
-		F30DACB453FB14056E5E6E90611FDA99 /* UserDefaultsSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560521DF39BF422D1A3D033E5231633B /* UserDefaultsSafe.swift */; };
 		F772E01C77758A55F8591072AE687CBE /* Pods-Strongroom_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C0785A01FC25D1BEBF5DA8D684CB24 /* Pods-Strongroom_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8F37CF45EF1BDE6B386E0A3FF88B809 /* Pods-Strongroom_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C319FB32E238AA3104A0D0BFFEAFF070 /* Pods-Strongroom_Example-dummy.m */; };
-		FE21BD50CE38C67B8A3722BEA79887EB /* CodableArchiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CEA67A159E52FA77CB05A9F6E7613 /* CodableArchiver.swift */; };
+		FD84E0D4F4E856527E1F84BAAC97F132 /* NSCacheSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D754E6E79AF88B5BC306DF073A3A040D /* NSCacheSafe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,57 +60,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0022444D1D5F1C80437FA9876B090B31 /* Strongroom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strongroom.swift; path = Strongroom/Classes/Strongroom.swift; sourceTree = "<group>"; };
-		032759FD4206ADD32EF9D8479F1F5AAA /* Strongroom.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Strongroom.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		01232CA3E042B25FEA9115AB13F3728A /* Strongroom-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Strongroom-Info.plist"; sourceTree = "<group>"; };
 		03AAA78BCE7AC3968EF2E118973A80E4 /* Pods-Strongroom_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Strongroom_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		03C18A9A072AA3BEC44E13C64FDFA2D0 /* Strongroom-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Strongroom-prefix.pch"; sourceTree = "<group>"; };
 		0990A87D4502C81862A647F59042270C /* Pods-Strongroom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Strongroom_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0D75E866474D1F81AE6C5664726C126A /* Strongroom-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Strongroom-dummy.m"; sourceTree = "<group>"; };
 		0F474F2BC934A2D195784100B2D42036 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAMKeychain.framework; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1668320DEC978439E2CF268118078156 /* Strongroom-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Strongroom-Info.plist"; sourceTree = "<group>"; };
+		13527C9BFFD00226B8861865B0A538B8 /* StrongroomSafe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrongroomSafe.swift; path = Strongroom/Classes/StrongroomSafe.swift; sourceTree = "<group>"; };
 		17D451BA11E19CE6DDD28C5F6C71343E /* Strongroom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Strongroom.framework; path = Strongroom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F034B27064FF8E4018C72896F1D15CE /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
+		2533C5A59F17AE626A2F4CDCD51F4FEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		29232C0A90275E386A312F9C83843838 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		29AD2784333C1839895C414892E2D112 /* SAMKeychain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SAMKeychain-Info.plist"; sourceTree = "<group>"; };
+		2CE766899447A529B310D48EF7473FBA /* StrongroomArchiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrongroomArchiver.swift; path = Strongroom/Classes/StrongroomArchiver.swift; sourceTree = "<group>"; };
 		317F47A16F8529553686F8B80A38FF10 /* Pods_Strongroom_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Strongroom_Example.framework; path = "Pods-Strongroom_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3356A4E56FAD37BDE2AAA8F4D0243E6F /* Pods-Strongroom_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Strongroom_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		366C6B59B5274313B19AB3B394AE69CA /* Pods-Strongroom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Strongroom_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3A557F07B874ED63FA6A1AB15318FA9B /* SAMKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-umbrella.h"; sourceTree = "<group>"; };
 		467DB29B6CE6347CBCC6F89D831B89EE /* SAMKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychainQuery.m; path = Sources/SAMKeychainQuery.m; sourceTree = "<group>"; };
 		4750DDEBB30FCFB4FA63C2BC37A4214D /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
-		560521DF39BF422D1A3D033E5231633B /* UserDefaultsSafe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsSafe.swift; sourceTree = "<group>"; };
 		587D556D6DD0F49AC52F463849A01938 /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
-		593D6FA47EB5BFCFD840720935001FB0 /* NSCacheSafe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSCacheSafe.swift; sourceTree = "<group>"; };
+		5CD1F9743AE2AAAAC3A5713438365C41 /* CodableArchiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodableArchiver.swift; sourceTree = "<group>"; };
+		5F4877883B9FF316C4D55301EAA01C17 /* UserDefaultsSafe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsSafe.swift; sourceTree = "<group>"; };
+		6CCECE364276E7D19D74A7FE1E70937E /* NSCodingArchiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSCodingArchiver.swift; sourceTree = "<group>"; };
 		6F80F9508BC54FB7663E29426985B603 /* SAMKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAMKeychain.modulemap; sourceTree = "<group>"; };
 		6FCBC20F75178423E706001F40588F9B /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
-		7A14C0A7AD1583C8ACEDC669A17EC422 /* Strongroom-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Strongroom-umbrella.h"; sourceTree = "<group>"; };
+		7599F4CAFF317CB776CA4053400BA3D2 /* Strongroom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strongroom.swift; path = Strongroom/Classes/Strongroom.swift; sourceTree = "<group>"; };
+		7DD40897BA87C4E947EAC3EA5514B886 /* Strongroom.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Strongroom.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		83F361EC591461C50814C908B82B5314 /* Pods-Strongroom_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Strongroom_Tests-Info.plist"; sourceTree = "<group>"; };
 		86C0785A01FC25D1BEBF5DA8D684CB24 /* Pods-Strongroom_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Strongroom_Tests-umbrella.h"; sourceTree = "<group>"; };
 		88B8A0BE489C9975676D4E6065F3EBEE /* Pods-Strongroom_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Strongroom_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8A8CEA67A159E52FA77CB05A9F6E7613 /* CodableArchiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodableArchiver.swift; sourceTree = "<group>"; };
+		927548DB3DAAF0509EF80BD2406A991B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		938F58AE8CD37924B2DE7052EBB6295B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		990D8C17F92650B4C2E37AD39F568667 /* SAMKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.xcconfig; sourceTree = "<group>"; };
 		9A4361AC6E5720A0A214962B7A6426B6 /* Pods-Strongroom_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Strongroom_Tests.modulemap"; sourceTree = "<group>"; };
-		A21C5D2FB220EA16983A6BFFBF67ACB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A5951A74082C57801B593CC89807AF50 /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
 		A64B335EC3901C1D822D5F374D88C56D /* Pods-Strongroom_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Strongroom_Example.modulemap"; sourceTree = "<group>"; };
 		B030BA2609DCB54BB794168772B9E0F5 /* Pods-Strongroom_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Strongroom_Example-umbrella.h"; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA17A034550189443AF05DADB4AECFCC /* Strongroom.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Strongroom.xcconfig; sourceTree = "<group>"; };
 		BFC77FBA426EF4A37DB79CC9213F4B75 /* Pods-Strongroom_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Strongroom_Tests-dummy.m"; sourceTree = "<group>"; };
-		BFF4CEBFDCCAFB6FA80DB24A242B73C3 /* Strongroom-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Strongroom-dummy.m"; sourceTree = "<group>"; };
 		C319FB32E238AA3104A0D0BFFEAFF070 /* Pods-Strongroom_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Strongroom_Example-dummy.m"; sourceTree = "<group>"; };
-		CB16F5DCAB7685679DE892107A6FB4A6 /* Strongroom.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Strongroom.modulemap; sourceTree = "<group>"; };
 		CFA7A0967D28F19BB142A5CCFB092CD8 /* Pods_Strongroom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Strongroom_Tests.framework; path = "Pods-Strongroom_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D13F5239B0351F367242CBC4552A1733 /* Strongroom.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Strongroom.xcconfig; sourceTree = "<group>"; };
-		D238743BA5ABD4B3FABF5EF22C54C688 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D413D76727073737DAA57CA60C778547 /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
 		D47CFDA55D4C624D14E2435B0CD232CA /* Pods-Strongroom_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Strongroom_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D98611E073E909A3F92313966B5E98FC /* StrongRoomHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StrongRoomHelper.swift; sourceTree = "<group>"; };
+		D754E6E79AF88B5BC306DF073A3A040D /* NSCacheSafe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSCacheSafe.swift; sourceTree = "<group>"; };
 		DEB703693FF7DCEFD98D68AAAA1DA0D3 /* Pods-Strongroom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Strongroom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F130F0D8C5EB85A9E873B607C0D23CD6 /* StrongroomArchiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StrongroomArchiver.swift; sourceTree = "<group>"; };
-		F293A34225E6763346DC56E875F3EA57 /* Strongroom-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Strongroom-prefix.pch"; sourceTree = "<group>"; };
+		E917CB34B1C50A99EB5BFCDFFBDA97A5 /* StrongroomHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StrongroomHelper.swift; sourceTree = "<group>"; };
+		E9DAB528DF2E8FDC79C37C3C339DFA44 /* Strongroom-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Strongroom-umbrella.h"; sourceTree = "<group>"; };
+		ECD146B2AC928BEA54E8FE1B7F071BAE /* Strongroom.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Strongroom.modulemap; sourceTree = "<group>"; };
 		F3F393E783427ABAC9106F50BEB567B2 /* Pods-Strongroom_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Strongroom_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F6DC654BB20D5684220953AD916C11DF /* Pods-Strongroom_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Strongroom_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FCE0B86ACFB231F7BA875DBE7606D0D5 /* Pods-Strongroom_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Strongroom_Example-Info.plist"; sourceTree = "<group>"; };
-		FE0B2956CA63084C7140157246516CE2 /* SAMKeychainSafe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SAMKeychainSafe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,20 +168,6 @@
 			path = "Target Support Files/Pods-Strongroom_Example";
 			sourceTree = "<group>";
 		};
-		2ADDA5965CDD569E73287A91A34E3E4A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CB16F5DCAB7685679DE892107A6FB4A6 /* Strongroom.modulemap */,
-				D13F5239B0351F367242CBC4552A1733 /* Strongroom.xcconfig */,
-				BFF4CEBFDCCAFB6FA80DB24A242B73C3 /* Strongroom-dummy.m */,
-				1668320DEC978439E2CF268118078156 /* Strongroom-Info.plist */,
-				F293A34225E6763346DC56E875F3EA57 /* Strongroom-prefix.pch */,
-				7A14C0A7AD1583C8ACEDC669A17EC422 /* Strongroom-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Strongroom";
-			sourceTree = "<group>";
-		};
 		3B74F6E29DDA63438528FE58BD6FEF55 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,20 +175,6 @@
 				938F58AE8CD37924B2DE7052EBB6295B /* Security.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		3BCE26EC1E5F2C7C1E3B176F05DD1FA6 /* Strongroom */ = {
-			isa = PBXGroup;
-			children = (
-				0022444D1D5F1C80437FA9876B090B31 /* Strongroom.swift */,
-				CBF5DF249FEB9B9F1B0A242D0C0289A6 /* Archivers */,
-				5E39272345158CD37A04F76E955DA4F6 /* Helpers */,
-				DED4806775407D1BC64D22173314938E /* Pod */,
-				AB0B26C06CCDB8252486963F2B35F7D6 /* Safes */,
-				2ADDA5965CDD569E73287A91A34E3E4A /* Support Files */,
-			);
-			name = Strongroom;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -225,11 +199,30 @@
 			path = "../Target Support Files/SAMKeychain";
 			sourceTree = "<group>";
 		};
-		5E39272345158CD37A04F76E955DA4F6 /* Helpers */ = {
+		65934733597C972AD3EE9199B8153843 /* Safes */ = {
 			isa = PBXGroup;
 			children = (
-				F130F0D8C5EB85A9E873B607C0D23CD6 /* StrongroomArchiver.swift */,
-				D98611E073E909A3F92313966B5E98FC /* StrongRoomHelper.swift */,
+				D754E6E79AF88B5BC306DF073A3A040D /* NSCacheSafe.swift */,
+				5F4877883B9FF316C4D55301EAA01C17 /* UserDefaultsSafe.swift */,
+			);
+			name = Safes;
+			path = Strongroom/Classes/Safes;
+			sourceTree = "<group>";
+		};
+		68BE6B296F3D99D0EFE17142AFAEFB58 /* Archivers */ = {
+			isa = PBXGroup;
+			children = (
+				5CD1F9743AE2AAAAC3A5713438365C41 /* CodableArchiver.swift */,
+				6CCECE364276E7D19D74A7FE1E70937E /* NSCodingArchiver.swift */,
+			);
+			name = Archivers;
+			path = Strongroom/Classes/Archivers;
+			sourceTree = "<group>";
+		};
+		6DDAC2C14300CB44732720321BC94B84 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E917CB34B1C50A99EB5BFCDFFBDA97A5 /* StrongroomHelper.swift */,
 			);
 			name = Helpers;
 			path = Strongroom/Classes/Helpers;
@@ -255,7 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				949D6838ED7113181482D234D6F307DC /* Development Pods */,
+				A49BB64B88E2377D9643E63961C3721B /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				BF4BDEF7DEC1C21CD808737A4ACDE8FB /* Pods */,
 				94C79D2AAF937DCE80EBE81B2DC6A8C2 /* Products */,
@@ -263,12 +256,20 @@
 			);
 			sourceTree = "<group>";
 		};
-		949D6838ED7113181482D234D6F307DC /* Development Pods */ = {
+		8E9BE6A261F916013B3AA73419238DE0 /* Strongroom */ = {
 			isa = PBXGroup;
 			children = (
-				3BCE26EC1E5F2C7C1E3B176F05DD1FA6 /* Strongroom */,
+				7599F4CAFF317CB776CA4053400BA3D2 /* Strongroom.swift */,
+				2CE766899447A529B310D48EF7473FBA /* StrongroomArchiver.swift */,
+				13527C9BFFD00226B8861865B0A538B8 /* StrongroomSafe.swift */,
+				68BE6B296F3D99D0EFE17142AFAEFB58 /* Archivers */,
+				6DDAC2C14300CB44732720321BC94B84 /* Helpers */,
+				F74DEECBF798432DCE2802883479E889 /* Pod */,
+				65934733597C972AD3EE9199B8153843 /* Safes */,
+				D6D8774B731142A68EE18218E819106E /* Support Files */,
 			);
-			name = "Development Pods";
+			name = Strongroom;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		94C79D2AAF937DCE80EBE81B2DC6A8C2 /* Products */ = {
@@ -282,15 +283,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB0B26C06CCDB8252486963F2B35F7D6 /* Safes */ = {
+		A49BB64B88E2377D9643E63961C3721B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				593D6FA47EB5BFCFD840720935001FB0 /* NSCacheSafe.swift */,
-				FE0B2956CA63084C7140157246516CE2 /* SAMKeychainSafe.swift */,
-				560521DF39BF422D1A3D033E5231633B /* UserDefaultsSafe.swift */,
+				8E9BE6A261F916013B3AA73419238DE0 /* Strongroom */,
 			);
-			name = Safes;
-			path = Strongroom/Classes/Safes;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BF4BDEF7DEC1C21CD808737A4ACDE8FB /* Pods */ = {
@@ -309,15 +307,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		CBF5DF249FEB9B9F1B0A242D0C0289A6 /* Archivers */ = {
-			isa = PBXGroup;
-			children = (
-				8A8CEA67A159E52FA77CB05A9F6E7613 /* CodableArchiver.swift */,
-			);
-			name = Archivers;
-			path = Strongroom/Classes/Archivers;
-			sourceTree = "<group>";
-		};
 		D2CA0275E02C7F9D0CA6D383FC73A924 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,12 +316,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DED4806775407D1BC64D22173314938E /* Pod */ = {
+		D6D8774B731142A68EE18218E819106E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D238743BA5ABD4B3FABF5EF22C54C688 /* LICENSE */,
-				A21C5D2FB220EA16983A6BFFBF67ACB2 /* README.md */,
-				032759FD4206ADD32EF9D8479F1F5AAA /* Strongroom.podspec */,
+				ECD146B2AC928BEA54E8FE1B7F071BAE /* Strongroom.modulemap */,
+				BA17A034550189443AF05DADB4AECFCC /* Strongroom.xcconfig */,
+				0D75E866474D1F81AE6C5664726C126A /* Strongroom-dummy.m */,
+				01232CA3E042B25FEA9115AB13F3728A /* Strongroom-Info.plist */,
+				03C18A9A072AA3BEC44E13C64FDFA2D0 /* Strongroom-prefix.pch */,
+				E9DAB528DF2E8FDC79C37C3C339DFA44 /* Strongroom-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Strongroom";
+			sourceTree = "<group>";
+		};
+		F74DEECBF798432DCE2802883479E889 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2533C5A59F17AE626A2F4CDCD51F4FEA /* LICENSE */,
+				927548DB3DAAF0509EF80BD2406A991B /* README.md */,
+				7DD40897BA87C4E947EAC3EA5514B886 /* Strongroom.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -396,7 +399,7 @@
 			buildConfigurationList = 0812539B00CAF47879D8BCF656A9ACEA /* Build configuration list for PBXNativeTarget "Strongroom" */;
 			buildPhases = (
 				164C72D0DFE25B04FFA94649A5FFBE02 /* Headers */,
-				77151B6CFF8FBE3AEA11C0A053678A0A /* Sources */,
+				B2FE7F56BBACF9DFF88F76C890D3392D /* Sources */,
 				0EA1608653B48F4A31E60DEEB6C3B5A1 /* Frameworks */,
 				9EDD62D6EDA8FB0A31E666A04EAB8288 /* Resources */,
 			);
@@ -538,26 +541,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77151B6CFF8FBE3AEA11C0A053678A0A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE21BD50CE38C67B8A3722BEA79887EB /* CodableArchiver.swift in Sources */,
-				25FB7A7949E741DD3385671764834D9D /* NSCacheSafe.swift in Sources */,
-				16C9D354B4DF46001FB6207DFC25E292 /* SAMKeychainSafe.swift in Sources */,
-				33BAA2FF467015212D228BE80992D3E8 /* Strongroom-dummy.m in Sources */,
-				A42146E76DD6CFCCA26D87BAC17AABAC /* Strongroom.swift in Sources */,
-				D0DC601A3C09367CAD202302B88562D2 /* StrongroomArchiver.swift in Sources */,
-				50D80AC4AB0A432DD4B02B05A11988BE /* StrongRoomHelper.swift in Sources */,
-				F30DACB453FB14056E5E6E90611FDA99 /* UserDefaultsSafe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B0AE55DF971E442557E81104DADD38F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F8F37CF45EF1BDE6B386E0A3FF88B809 /* Pods-Strongroom_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FE7F56BBACF9DFF88F76C890D3392D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AB1DE0CAED926B6FCB6DB84174E21C /* CodableArchiver.swift in Sources */,
+				FD84E0D4F4E856527E1F84BAAC97F132 /* NSCacheSafe.swift in Sources */,
+				35BFBFC40FA29C45DB1A57DD5BF2477F /* NSCodingArchiver.swift in Sources */,
+				74ED1F9D0894E3B7A0C53DDE2CFB7D35 /* Strongroom-dummy.m in Sources */,
+				33516C77B8625448970C56B2E50C5A8E /* Strongroom.swift in Sources */,
+				B7488543CE3B792C1084B89896405382 /* StrongroomArchiver.swift in Sources */,
+				D031E4FFC0A2EAE6B18B9C3140408C38 /* StrongroomHelper.swift in Sources */,
+				2B3B50DEA3B16593468A9432B633ADEE /* StrongroomSafe.swift in Sources */,
+				85D20010F9D8FB701AABCF84CF03CFDF /* UserDefaultsSafe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,7 +665,7 @@
 		};
 		3E2EE4D587D0473BAEF9F5CC83087777 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D13F5239B0351F367242CBC4552A1733 /* Strongroom.xcconfig */;
+			baseConfigurationReference = BA17A034550189443AF05DADB4AECFCC /* Strongroom.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -884,7 +888,7 @@
 		};
 		A9F05B1BBE31A7D1F623FC638E308984 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D13F5239B0351F367242CBC4552A1733 /* Strongroom.xcconfig */;
+			baseConfigurationReference = BA17A034550189443AF05DADB4AECFCC /* Strongroom.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
